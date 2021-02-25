@@ -65,7 +65,7 @@ const AddTask = ( {addTask}) => {
                     <FormLabel>Task</FormLabel>
                     <Input 
                         ref={initialRef} 
-                        placeholder="Task"
+                        placeholder="Task (required)"
                         value={title} 
                         onChange={(e) => setTitle(e.target.value)} 
                     />
@@ -78,7 +78,7 @@ const AddTask = ( {addTask}) => {
                         // onChange={handleInputChange}
                         value={description} 
                         onChange={(e) => setDescription(e.target.value)}
-                        placeholder="Comments/Description"
+                        placeholder="Comments/Description/Notes"
                         size="md"
                     />
                 </FormControl>

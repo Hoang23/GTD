@@ -32,7 +32,7 @@ const Card = ({tasks, deleteTask}) => {
                                 <Text as='h2' fontWeight='semibold' fontSize='xl' my={2}>
                                     {task.title}
                                 </Text>
-                                <Text fontWeight='light' fontSize='md' noOfLines={2}> {/* isTruncated */}
+                                <Text fontWeight='light' fontSize='md' noOfLines={3}> {/* isTruncated */}
                                     {task.description}
                                 </Text>
                                     
