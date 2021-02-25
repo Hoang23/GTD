@@ -26,7 +26,8 @@ const Card = ({tasks, deleteTask}) => {
                                         color='gray.500'
                                         letterSpacing='wide'
                                     >
-                                        Due {task.due}
+                                        {task.due ? 'Due ' : ''}
+                                        {task.due}
                                     </Text>
                                 </Stack>
                                 <Text as='h2' fontWeight='semibold' fontSize='xl' my={2}>

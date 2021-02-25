@@ -47,7 +47,7 @@ const AddTask = ( {addTask}) => {
   return (
     <>
 
-      <Button colorScheme = "green" onClick={onOpen}>Add Task</Button>
+      <Button colorScheme = "green"  onClick={onOpen}>Add Task</Button>
     
       <Modal
         initialFocusRef={initialRef}
@@ -107,7 +107,7 @@ const AddTask = ( {addTask}) => {
           </ModalBody>
 
           <ModalFooter>
-            <Button onClick={onSubmit} colorScheme="blue" mr={3}>
+            <Button onClick={onSubmit}  colorScheme="blue" mr={3}>
               Add Task
             </Button>
             <Button onClick={onClose}>Cancel</Button>

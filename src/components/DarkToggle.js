@@ -9,7 +9,7 @@ const DarkToggle = () => {
 
     return (
         <div>
-            <Button size="md" onClick={toggleColorMode}>
+            <Button size="md" onClick={toggleColorMode} colorScheme="green" variant="outline">
                 ToggleDark
             </Button>
         </div>
